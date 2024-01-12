@@ -44,8 +44,8 @@ public class GrapplingGun : MonoBehaviour
             joint.minDistance = distanceFromPoint * 0.25f;
 
             //Adjust these if it doesnt feel right
-            joint.spring = 4.5f;
-            joint.damper = 7f;
+            joint.spring = 20f;
+            joint.damper = 5f;
             joint.massScale = 4.5f;
 
             lr.positionCount = 2;
