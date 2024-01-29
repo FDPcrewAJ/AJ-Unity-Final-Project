@@ -20,3 +20,4 @@ public class Collect : MonoBehaviour
         Destroy(gameObject, 0.4F);
     }   
 }
+
